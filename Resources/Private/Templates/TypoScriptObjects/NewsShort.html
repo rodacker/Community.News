@@ -15,6 +15,9 @@
         <!-- Teaser -->
         <h3><neos:contentElement.editable property="teaser" /></h3>
 
+        <!-- read me link -->
+        <neos:link.node node="{node}">Read more</neos:link.node>
+
         <!-- Categories -->
         <f:if condition="{categories}">
             <p>Categories:

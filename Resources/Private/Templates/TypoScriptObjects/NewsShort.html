@@ -16,7 +16,9 @@
         <h3><neos:contentElement.editable property="teaser" /></h3>
 
         <!-- read me link -->
-        <neos:link.node node="{node}">Read more</neos:link.node>
+        <neos:link.node node="{node}">
+            <f:translate id="list.readMore" package="Community.News" />
+        </neos:link.node>
 
         <!-- Categories -->
         <f:if condition="{categories}">
